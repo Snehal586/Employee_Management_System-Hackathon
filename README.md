@@ -62,9 +62,9 @@ npm start
 
 ## 🌍 Live Demo
 
-Frontend: 🔗 employee-management-system-hackatho.vercel.app
+Frontend: 🔗 https://employee-management-system-hackatho.vercel.app
 
-Backend: ⚙️ employee-management-system-hackathon.onrender.com
+Backend: ⚙️ https://employee-management-system-hackathon.onrender.com
 
 ## Design & Thought Process
 
