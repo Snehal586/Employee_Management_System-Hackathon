@@ -1,0 +1,208 @@
+/* 🌌 Soft Aurora Theme */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(120deg, #1a0033, #4b006e, #ff6f91, #ffc371);
+  background-size: 300% 300%;
+  animation: auroraFlow 12s ease infinite;
+  min-height: 100vh;
+  color: #fff;
+}
+
+@keyframes auroraFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* 🔹 Glass Card */
+.card {
+  background: rgba(30, 30, 40, 0.55);
+  backdrop-filter: blur(15px);
+  border-radius: 18px;
+  padding: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.5);
+}
+
+/* 🔹 Buttons */
+button {
+  padding: 10px 18px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(45deg, #ff6f91, #ff9671, #ffc75f);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+}
+button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 204, 153, 0.6);
+}
+
+/* 🔹 Sidebar */
+.sidebar {
+  width: 230px;
+  background: rgba(30, 30, 40, 0.5);
+  backdrop-filter: blur(25px);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar h2 {
+  text-align: center;
+  font-weight: 600;
+  background: linear-gradient(90deg, #ff9671, #ffc75f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 40px;
+}
+
+.sidebar a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin: 15px 0;
+  transition: 0.3s ease;
+  font-weight: 500;
+  padding: 5px 0;
+}
+.sidebar a:hover {
+  color: #ffc75f;
+  transform: translateX(8px);
+}
+
+/* 🔹 Logout Button in Sidebar */
+.sidebar button {
+  width: 100%;
+  background: linear-gradient(45deg, #ff9671, #ff6f91);
+  font-weight: 600;
+}
+.sidebar button:hover {
+  box-shadow: 0 0 15px rgba(255, 153, 153, 0.5);
+}
+
+/* 🔹 Layout */
+.content {
+  margin-left: 260px;
+  padding: 35px;
+  animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* 🔹 Table */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.table th,
+.table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.table th {
+  color: #ffc75f;
+}
+
+/* 🔹 Input and Textarea */
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  margin-bottom: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+label {
+  font-weight: 500;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes auroraFlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
