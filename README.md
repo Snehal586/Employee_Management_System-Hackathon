@@ -74,7 +74,7 @@ npm start
 👉 http://localhost:5000
 
 
-Make sure MySQL is running and update .env with your DB details.
+### Make sure MySQL is running and update .env with your DB details.
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_mysql_password
