@@ -3,6 +3,7 @@
 
 A full-stack web application built for the ASE Challenge 2025, designed to manage employees, roles, departments, leaves, and company announcements — all in one place.
 
+
 ## 🎯 Objective
 
 The goal of this project was to build a clean, real-world application showcasing my full-stack development skills.
@@ -16,6 +17,7 @@ Designing a modern, interactive UI using Glassmorphism
 
 Understanding the connection between frontend, backend, and database
 
+
 ## 🧱 Tech Stack
 
 Frontend: React.js, JavaScript, Axios, React Router DOM
@@ -27,6 +29,7 @@ Database: MySQL
 Styling: Custom CSS (Glassmorphism + Gradient UI)
 
 Hosting: Frontend → Vercel | Backend → Render
+
 
 ## ✨ Features
 
@@ -50,6 +53,7 @@ Apply for leaves and check status
 
 See latest company announcements
 
+
 ## 🔐 Login Credentials
 
 Use the following demo accounts to test both panels:
@@ -59,6 +63,7 @@ Role	Email	Password
 	admin123
 👩‍💻 Employee	snehal@example.com
 	snehal123
+
 
 ## ⚙️ How to Run Locally
 1️⃣ Clone the repository
@@ -94,11 +99,13 @@ npm start
 ➡️ Frontend will run at:
 👉 http://localhost:3000
 
+
 ## 🌍 Live Demo
 
 Frontend: 🔗 https://employee-management-system-hackatho.vercel.app
 
 Backend: ⚙️  https://employee-management-system-hackathon.onrender.com
+
 
 ## Design & Thought Process
 
