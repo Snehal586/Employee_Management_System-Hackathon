@@ -70,13 +70,24 @@ cd backend
 npm install
 npm start
 
+➡️ Backend will run at:
+👉 http://localhost:5000
+
 
 Make sure MySQL is running and update .env with your DB details.
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=your_mysql_password
+DB_NAME=employee_management
+PORT=5000
 
 3️⃣ Setup Frontend
 cd frontend
 npm install
 npm start
+
+➡️ Frontend will run at:
+👉 http://localhost:3000
 
 ## 🌍 Live Demo
 
