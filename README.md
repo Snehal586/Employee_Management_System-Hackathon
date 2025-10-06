@@ -77,9 +77,13 @@ npm start
 Make sure MySQL is running and update .env with your DB details.
 
 DB_HOST=localhost
+
 DB_USER=root
+
 DB_PASSWORD=your_mysql_password
+
 DB_NAME=employee_management
+
 PORT=5000
 
 3️⃣ Setup Frontend
