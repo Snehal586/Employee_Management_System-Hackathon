@@ -5,8 +5,16 @@ A full-stack web application built for the ASE Challenge 2025, designed to manag
 
 ## 🎯 Objective
 
-The goal of this project is to build a simple yet practical employee management system showing my understanding of frontend, backend, and database integration.
-The focus was on clean code, UI design, and real-world features instead of unnecessary complexity.
+The goal of this project was to build a clean, real-world application showcasing my full-stack development skills.
+The focus is on:
+
+Writing clear and maintainable code
+
+Implementing real functionality (CRUD, login, role-based access)
+
+Designing a modern, interactive UI using Glassmorphism
+
+Understanding the connection between frontend, backend, and database
 
 ## 🧱 Tech Stack
 
@@ -41,6 +49,16 @@ View personal profile
 Apply for leaves and check status
 
 See latest company announcements
+
+## 🔐 Login Credentials
+
+Use the following demo accounts to test both panels:
+
+Role	Email	Password
+🧑‍💼 Admin	admin@example.com
+	admin123
+👩‍💻 Employee	snehal@example.com
+	snehal123
 
 ## ⚙️ How to Run Locally
 1️⃣ Clone the repository
